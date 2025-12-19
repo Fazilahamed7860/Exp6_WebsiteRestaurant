@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f8f8f8;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: #fff;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: orange;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background: url("https://via.placeholder.com/1200x600") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    background: rgba(0,0,0,0.6);
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.hero button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    border: none;
+    background: orange;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: darkorange;
+}
+
+/* Menu */
+.menu {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    width: 260px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding-bottom: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+/* About */
+.about {
+    padding: 60px 40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.about img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
